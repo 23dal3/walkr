@@ -19,3 +19,5 @@ vignettes/cache/*
 .so
 src/*o
 src/*dll
+
+vignettes/walkr_files

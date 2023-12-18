@@ -1,0 +1,24 @@
+---
+title: "walkr: MCMC Sampling from Non-Negative Convex Polytopes"
+format: html
+---
+
+## Introduction
+
+\section{Introduction} 
+
+Consider all possible vectors $x$ that satisfy the matrix equation $Ax=b$,
+where $A$ is $M \times N$, $x$ is $N \times 1$, and $b$ is $M \times 1$. 
+The problem is interesting when there are more columns than rows  ($M < N$).
+In general, if $M = N$, then there is a single solution, and if $M > N$, then there are no solutions. If the rows of $A$ are linearly dependent, rows can be eliminated until they are linearly  independent without changing the solution space. Assume that the rows of $A$ are 
+linearly independent going forward. 
+
+Geometrically, every row in $Ax=b$ describes a hyperplane in $\mathbb{R}^N$. $Ax=b$ represents the intersection of $M$ unbounded hyperplanes. We bound the sample space by also requiring the vector $x$ to be in the $N$-simplex, defined as: 
+
+
+$$x_1 + x_2 + x_3 + ... + x_N = 1$$
+$$x_i \geq 0, \qquad \forall \quad i \in \text{\{$1, 2, ..., N$\}}$$ 
+
+The $N$-simplex is a $N-1$ dimensional object living in $N$ dimensional space. For example, the $3$D-simplex 
+is a two dimensional equilateral triangle in three dimensional space (Figure~\ref{fig:simplex3D}).
+
