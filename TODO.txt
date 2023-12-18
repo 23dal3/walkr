@@ -1,0 +1,17 @@
+Read https://ppbds.github.io/primer/getting-started.html 
+
+Complete and email html to me these two tutorials:
+
+RStudio and Code
+r4ds.tutorials: 03-rstudio-and-code
+
+RStudio and Github
+r4ds.tutorials: 05-rstudio-and-github
+
+Complete: https://ppbds.github.io/primer/set-up.html
+
+Connect to https://github.com/davidkane9/walkr
+
+Submit a PR which adds your name to the bottom of this file.
+
+
