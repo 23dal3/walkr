@@ -15,3 +15,20 @@ Connect to https://github.com/davidkane9/walkr
 Submit a PR which adds your name to the bottom of this file.
 
 
+## Daniel
+
+https://github.com/davidkane9/walkr
+
+Probably unnecessary, but for your reference: https://ppbds.github.io/primer/set-up.html. 
+
+Confirm that things are working by submitting a PR which adds your name to the bottom of this file.
+
+Useful reference for R Packages: https://r-pkgs.org/ Probably worthwhile to read Chapter 1, at least if you have not created R packages before.
+
+Two tasks to work on. Not sure which to do first. Should be separate PRs, obviously.
+
+### Get Package to Pass R CMD check
+
+### Translate Vignette from rmw to qmd format
+
+
