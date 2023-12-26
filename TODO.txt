@@ -25,10 +25,42 @@ Confirm that things are working by submitting a PR which adds your name to the b
 
 Useful reference for R Packages: https://r-pkgs.org/ Probably worthwhile to read Chapter 1, at least if you have not created R packages before.
 
-Two tasks to work on. Not sure which to do first. Should be separate PRs, obviously.
+Two tasks to work on. Should be separate PRs, obviously.
+
+### Translate Vignette from rmw to qmd format
+
+Rnw is the old format for writing text and R code. Quarto is the new recommended format. It is a flavor of markdown.
+
+Don't feel the need to make the new output look like the old output. Quarto looks different. But we do want all the substance: formulas, citation and so on. Can probably get rid of lots of old junk files.
 
 ### Get Package to Pass R CMD check
 
-### Translate Vignette from rmw to qmd format
+RStudio makes looking at this issue easy.
+
+Could be that getting rid of the Rnw vignette makes this easy.
+
+The error I get is:
+
+E  creating vignettes (8.3s)
+   --- re-building ‘walkr.Rnw’ using knitr
+   Error: processing vignette 'walkr.Rnw' failed with diagnostics:
+   Located more than one ‘weave’ output file (by engine ‘knitr::knitr’) for vignette with name ‘walkr’: ‘walkr.html’ (13035 bytes), ‘walkr.pdf’ (796553 bytes), ‘walkr.tex’ (38604 bytes)
+   --- failed re-building ‘walkr.Rnw’
+   
+   SUMMARY: processing the following file failed:
+     ‘walkr.Rnw’
+   
+   Error: Vignette re-building failed.
+   Execution halted
+Error in `(function (command = NULL, args = character(), error_on_status = TRUE, …`:
+! System command 'R' failed
+---
+Exit status: 1
+stdout & stderr: <printed>
+---
+Backtrace:
+
+
+
 
 
