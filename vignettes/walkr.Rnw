@@ -9,6 +9,7 @@
 \usepackage[round]{natbib}
 \usepackage{subfigure}
 \begin{document}
+\SweaveOpts{concordance=TRUE}
 
 %\VignetteEngine{knitr::knitr} 
 %\VignetteIndexEntry{walkr}
